@@ -1,0 +1,58 @@
+button cez python
+
+  <script>
+        function toggleLabel() {
+            const btn = 
+                document.querySelector('button');
+            if (btn.innerText === 'Click me') {
+                btn.innerText = 'Label Changed!';
+            } else {
+                btn.innerText = 'Click me';
+            }
+        }
+    </script>
+
+
+potrebujem na dva režimy 2 podstránky?
+
+modrá - #b4d5f8 / 180, 213, 248
+zelená - #78c98e / 120, 201, 142
+
+
+.toggle-button {
+    display: flex;
+    font-size: x-large;
+    color: white;
+    background-color: rgb(183,223,206);
+    border-color: rgb(97, 177, 118);
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .toggle-button.active {
+  background-color: rgb(97, 177, 118);
+  }
+
+        <button class="toggle-button" onclick="toggleState(this)">
+            Atmosféra
+        </button>
+        <button class="toggle-button" onclick="toggleState(this)">
+            Hydrosféra
+        </button>
+        <button class="toggle-button" onclick="toggleState(this)">
+            Pedosféra
+        </button>
+        <button class="toggle-button" onclick="toggleState(this)">
+            Litosféra sgeoreliéfom
+        </button>
+        <button class="toggle-button" onclick="toggleState(this)">
+            Človek
+        </button>
+        <button class="toggle-button" onclick="toggleState(this)">
+            Biosféra - rastliny
+        </button>
+        <button class="toggle-button" onclick="toggleState(this)">
+            Biosféra - živočíchy
+        </button>
